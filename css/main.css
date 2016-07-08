@@ -1,0 +1,110 @@
+* {
+
+}
+.main {
+ 	padding-top: 10px;
+ 	padding-bottom: 100px;
+ 	background-image: url(../img/back1.jpg);
+ 	background-size: cover;
+} 
+.logo {
+
+}
+.logo img {
+	float: right;
+	max-width: 200px; 
+}
+.search {
+	margin-left: 20px;
+}
+.search input {
+	padding: 23px 10px;
+}
+.search button {
+	float: right;
+}
+.result {
+	margin-top: 100px;
+}
+.result img {
+	max-width: 100%;
+    border-radius: 70px 70px 0 0;
+}
+.textOutPut {
+	position: relative;
+}
+/*// javasecript will preduce h2 and p*/
+
+.textOutPut h2 {	
+	color: #b10417;
+	font-size: 2em;
+	background-color: rgba(252, 251, 255, 0.5);
+	padding: 2px 20px;
+	margin: 0;
+	/*position: relative;*/
+
+}
+.textOutPut p {
+	color: black;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: rgba(252, 251, 255, 0.5);
+	padding: 2px 20px;
+	/*position: relative;*/
+}
+
+/*Cocktail buttons*/
+.coctailBtns {
+	margin-top: 300px;
+	text-align: center;
+}
+.coctailBtns ul {
+	display: inline-block;
+	list-style-type: none;
+}
+.coctailBtns ul li {
+	margin-bottom: 10px;
+}
+.coctailBtns .coctailBtnsOne {
+
+}
+.coctailBtns .coctailBtnsTwo {
+
+}
+
+
+.coctailBtns .whiteRussian {
+	background-color: white;
+	color: red;
+}
+.coctailBtns .cosmopolitan {
+	background-color: #f2602a;
+}
+.coctailBtns .margarita {
+	background-color: #80b839;
+	color: white;
+}
+.coctailBtns .whiskeySour {
+	background-color: #bc9a04;
+}
+.coctailBtns .negroni {
+	background-color: #d50b00;
+	color: white;
+}
+.coctailBtns .longIsland {
+	background-color: #320301;
+	color: white;
+}
+.coctailBtns .ginTonic {
+	background-color: #faf9ff;
+}
+.coctailBtns .maiTai {
+	background-color: #ecb845;
+}
+.coctailBtns .irishGold {
+	background-color: #80b839;
+	color: #f4b860;
+}
+.coctailBtns .malibuBay {
+	background-color: #e39e36;
+}
