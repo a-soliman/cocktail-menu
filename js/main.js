@@ -130,3 +130,201 @@ cocktailName = document.createTextNode(cocktail[i].name)
 		textOutPut.appendChild(name)
 		textOutPut.appendChild(ingredients)
 }
+
+// 2nd BUTTON
+function getCosmopolitan() {
+	i = 1
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 3rd BUTTON
+function getMargarita() {
+	i = 2
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 4th BUTTON
+function getWhiskeySour() {
+	i = 3
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 5th BUTTON
+function getNegroni() {
+	i = 4
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 6th BUTTON
+function getLongIsland() {
+	i = 5
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 7th BUTTON
+function getGinTonic() {
+	i = 6
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 8th BUTTON
+function getMaiTai() {
+	i = 7
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 9th BUTTON
+function getIrishGold() {
+	i = 8
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
+
+// 10th BUTTON
+function getMalibuBay() {
+	i = 9
+
+	//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
