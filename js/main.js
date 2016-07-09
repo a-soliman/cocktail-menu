@@ -1,5 +1,5 @@
   $(".result").hover(function(){
-    $(".textOutPut").animate({"top": "-90px" });
+    $(".textOutPut").animate({"top": "-60px" });
     }, function(){
     $(".textOutPut").animate({"top": "0px" });
 });
@@ -58,10 +58,11 @@ var cocktail = [
 
 	]
 
+// if searched by the input 
  function searchCocktail(){
 
  // var for geeting the value of the searched cocktail
-var searchedCocktail = document.getElementById("searchedCocktail").value
+var searchedCocktail = document.getElementById("searchedCocktail").value.toLowerCase()
 // setting the text output
 var textOutPut = document.getElementById("textOutPut")
 // setting the image output
