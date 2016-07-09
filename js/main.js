@@ -108,3 +108,25 @@ var textOutPut = document.getElementById("textOutPut")
 var cocktailImg = document.getElementById("cocktailImg")
 
 
+
+// FIRST BUTTON
+function getWhiteRussian() {
+
+var i = 0
+
+//creating h2 and p tags for the output 
+var name = document.createElement("h2")
+var ingredients = document.createElement("p")
+var image = document.createElement("img")
+
+
+cocktailName = document.createTextNode(cocktail[i].name)
+		cocktailIng = document.createTextNode(cocktail[i].ing)
+
+		cocktailImg.setAttribute("src", cocktail[i].imageName)
+		name.appendChild(cocktailName)
+		ingredients.appendChild(cocktailIng)
+
+		textOutPut.appendChild(name)
+		textOutPut.appendChild(ingredients)
+}
