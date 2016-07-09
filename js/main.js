@@ -97,3 +97,14 @@ var image = document.createElement("img")
 		console.log("it is not working")
 }
 
+//=====================================================================================
+// for cocktail buttons 
+
+// General scope vars
+
+// setting the text output
+var textOutPut = document.getElementById("textOutPut")
+// setting the image output
+var cocktailImg = document.getElementById("cocktailImg")
+
+
